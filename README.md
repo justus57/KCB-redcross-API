@@ -1,3 +1,4 @@
 # KCB-redcross-API
 this is a connection between a KCB and connection sample
-KCB-redcross-API/NewFolder/image.png
+
+![image.png](https://github.com/justus57/STIMA-PESALINK/blob/master/KCB-redcross-API/NewFolder/image.png?raw=true)
