@@ -229,7 +229,7 @@ namespace KCB_redcross_API.Controllers
                 request.AddHeader("Authorization", "Basic UkVEQ1JPU1MxMDE6MTUyMFN1c3BlY3Q2Pw==");
                 IRestResponse response = client.Execute(request);
                 KCBRESPONSE = response.Content;
-                Console.WriteLine(response.Content);
+                
 
                 TokenResponse AccessTokenRequestResponse = JsonConvert.DeserializeObject<TokenResponse>(KCBRESPONSE);
                 var Accesstoken = AccessTokenRequestResponse.access_token;
