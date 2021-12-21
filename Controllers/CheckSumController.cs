@@ -277,7 +277,7 @@ namespace KCB_redcross_API.Controllers
             request.AddParameter("application/json", body, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             CheckSumResponse = response.Content;
-            Console.WriteLine(response.Content);
+           
 
             checksumresponseBody RequestResponse = JsonConvert.DeserializeObject<checksumresponseBody>(CheckSumResponse);
             var status = RequestResponse.status;
