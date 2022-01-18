@@ -79,7 +79,7 @@ namespace KCB_redcross_API
             try
             {
                 //set up a filestream
-                string strPath = @"C:\Logs\Pesalink2.0";
+                string strPath = @"C:\Logs\KCBAPI";
                 string fileName = DateTime.Now.ToString("MMddyyyy") + "_logs.txt";
                 string filenamePath = strPath + '\\' + fileName;
                 Directory.CreateDirectory(strPath);

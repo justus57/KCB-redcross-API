@@ -226,7 +226,7 @@ namespace KCB_redcross_API.Controllers
                 client.Timeout = -1;
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "application/json");
-                request.AddHeader("Authorization", "Basic UkVEQ1JPU1MxMDE6MTUyMFN1c3BlY3Q2Pw==");
+                request.AddHeader("Authorization", auth);
                 IRestResponse response = client.Execute(request);
                 KCBRESPONSE = response.Content;
                 
